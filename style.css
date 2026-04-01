@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #014E56;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 76px 165px;
+
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.showcase{
+    padding: 76px 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showcase p{
+    max-width: 730px;
+}
+
+section{
+    background: #004047;
+    height: 80vh;
+}
+
+.card{
+    background: #012F34;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 32px 24px;
+}
+
+.first{
+    border-radius: 50%;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.title{
+    padding: 71px 0;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.img{
+    position: relative;
+    top: 50px;
+}
+.second{padding: 20px   ;
+}
+.space{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    gap: 50px
+    ;
+}
+.both{
+justify-content: flex-start;
+}
+.redr{ border-radius: 10px;
+text-align: center;
+font-size: 30px;}
+.both{display: flex;
+    align-items: center;
+    gap: 40px; 
+justify-content:space-around;
+font-size: 50px;
+background-color:pink; width: 1500px;
+height 200px
+    }
+.me{
+ display: flex;
+   justify-content:space-around;
+   align-items: center;
+    gap: 40px; 
+}
